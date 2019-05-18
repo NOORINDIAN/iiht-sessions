@@ -14,11 +14,17 @@
   </head>
 
   <body>
-    <h1>Heading</h1>
-    <!--
-        DOM = Document Object Model
-    -->
+    <h1 id="sum1">Heading</h1>
+    <div id="sum"></div>
+    <!-- DOM = Document Object Model -->
     <script src="main.js"></script>
+    <script>
+      var x = 10;
+      var y = 20;
+      document
+        .querySelector('#sum')
+        .textContent = x + y;
+    </script>
   </body>
 
 </html>
