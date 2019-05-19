@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      p {
+        display: none;
+        /* visibility: hidden; */
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Heading</h1>
+    <p>Paragraph</p>
+    <h2>Second heading</h2>
+
+    <button id="btn">Show Paragraph</button>
+
+    <script>
+      document
+        .querySelector('#btn')
+        .onclick = function () {
+          //anonymous function
+          document
+            .querySelector('p')
+            .style
+            .display = 'block';
+        }
+    </script>
+  </body>
+
+</html>
