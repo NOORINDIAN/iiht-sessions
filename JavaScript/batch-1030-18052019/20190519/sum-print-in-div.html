@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add and print in div</title>
+  </head>
+
+  <body>
+    <div id="result"></div>
+    <button id="btn">Sum</button>
+
+    <script>
+      document
+        .querySelector('#btn')
+        .onclick = function () {
+          var x = 10,
+            y = 30;
+          document
+            .querySelector('#result')
+            .textContent = x + y;
+        }
+    </script>
+  </body>
+
+</html>
