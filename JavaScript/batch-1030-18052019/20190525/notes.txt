@@ -2,3 +2,4 @@
 - It is a dynamically-typed language.
 - It was developed by Brendan Eich.
 - JavaScript was known as LiveScript in the beginning. It was renamed JavaScript with some marketing strategy.
+- There is no relation between Java and JavaScript.
