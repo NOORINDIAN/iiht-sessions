@@ -1,1 +1,3 @@
 - JavaScript is a full-fledged scripting language. 
+- It is a dynamically-typed language.
+- It was developed by Brendan Eich.
