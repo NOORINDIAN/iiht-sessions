@@ -1,0 +1,1 @@
+1. Take two variables x and y, assign some numbers to them and print its sum in a div element.
