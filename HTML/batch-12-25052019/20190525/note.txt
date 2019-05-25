@@ -1,0 +1,9 @@
+- HTML stands for HyperText Markup Language.
+- HTML is a tag-based language.
+- It is not a programming language.
+- It is a markup language.
+- HTML document is known as webpage. 
+- HTML5 is the latest version of HTML.
+
+- html element is called root element.
+- HTML document forms a tree structure which is also called as DOM(Document Object Model) Tree.
