@@ -1,0 +1,9 @@
+@font-face {
+    font-family: digital7;
+    src: url('fonts/digital-7.ttf');
+}
+
+#digital-clock {
+    font-family: digital7;
+    font-size: 2rem;
+}
