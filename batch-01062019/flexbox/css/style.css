@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+#left {
+    background: #eee;
+    flex: 1;
+}
+
+#main {
+    display: flex;
+}
+
+#content {
+    flex: 2;
+}
