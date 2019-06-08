@@ -2,4 +2,4 @@
 
 You have to create the following pages:
 
-* Homepage - similar to ![Homepage](images/yaktocat.png)
+* Homepage - similar to ![Homepage](images/homepage.png)
