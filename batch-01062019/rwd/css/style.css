@@ -1,0 +1,42 @@
+html {
+    font-size: 17px;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    border-bottom: 1px solid #cccccc5e;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    flex: 1;
+    min-height: 400px;
+    background-color: beige;
+    padding: 7px;
+}
+
+article {
+    flex: 3;
+    padding: 7px;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+}
