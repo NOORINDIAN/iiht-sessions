@@ -15,15 +15,25 @@
     </header>
     <main>
       <aside>
-        <h2>Sidebar</h2>
+        <!--inline JavaScript = not recommeneded to use -->
+        <h2 onclick="javaScript:alert('hi');">Sidebar</h2>
       </aside>
       <article>
-        <h2>Article</h2>
+        <h2 id="h2">Article</h2>
       </article>
     </main>
     <footer>
       Footer
     </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+      document
+        .querySelector('#h2')
+        .onclick = function () {
+          this.textContent = "Hello world!";
+        }
+    </script>
   </body>
 
 </html>
