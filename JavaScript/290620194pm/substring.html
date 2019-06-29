@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>substring</title>
+  </head>
+
+  <body>
+    <div id="txt"></div>
+    <button>Backspace</button>
+    <script>
+      var str = "This is an evening batch.";
+      document
+        .getElementById('txt')
+        .innerHTML = str;
+
+      document
+        .querySelector('button')
+        .onclick = function () {
+          str = document
+            .getElementById('txt')
+            .innerHTML;
+          document
+            .getElementById('txt')
+            .innerHTML = str.substring(0, (str.length) - 1);
+        }
+    </script>
+  </body>
+
+</html>
