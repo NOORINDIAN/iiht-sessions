@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Input Alert</title>
+  </head>
+
+  <body>
+    <form>
+      <input type="text" name="name"/>
+      <button>Alert</button>
+    </form>
+
+    <script>
+      document
+        .querySelector('button')
+        .onclick = function (e) {
+          e.preventDefault();
+          var txt = document
+            .querySelector('[name="name"]')
+            .value;
+          alert(txt);
+        }
+    </script>
+  </body>
+
+</html>

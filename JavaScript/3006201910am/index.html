@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Intro</title>
+    <style>
+      h1 {
+        color: red;
+        font-size: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Heading</h1>
+    <script>
+      document
+        .querySelector('h1')
+        .onclick = function () {
+          //this.textContent = " New heading";
+          this.innerHTML = "<u>New</u> heading";
+        }
+    </script>
+  </body>
+
+</html>
